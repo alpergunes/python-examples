@@ -6,8 +6,7 @@ class User():
 
     def show_details(self):
         print(f'Personal Details\n\nName:{self.name}\nAge:{self.age}\nGender:{self.age}')
-alper = User('alper',21,'E')
-alper.show_details()
+
 
 class Bank(User):
     def __init__(self,name,age,gender,):
